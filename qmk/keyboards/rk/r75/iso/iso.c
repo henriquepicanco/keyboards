@@ -8,4 +8,3 @@ void keyboard_pre_init_kb(void) {
     gpio_write_pin_high(LED_ENABLE_PIN);
     keyboard_pre_init_user();
 }
-
